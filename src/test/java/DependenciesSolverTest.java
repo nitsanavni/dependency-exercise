@@ -25,4 +25,9 @@ public class DependenciesSolverTest {
 
         assertArrayEquals(expected, solver.solve(dependencies));
     }
+
+    @Test
+    public void shouldReturnAllProvidedElementsSortedByDependency() {
+        // TODO - implement me
+    }
 }
